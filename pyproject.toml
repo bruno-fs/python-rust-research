@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-rust-research"
+version = "0.1.1"
+description = "research python projects mixed with rust code"
+authors = ["Bruno FS Ciconelle <fsouza.bruno@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pybuild-deps = "^0.1.1"
+pandas = "^2.1.1"
+github-dependents-info = "^1.2.0"
+tomli-w = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
